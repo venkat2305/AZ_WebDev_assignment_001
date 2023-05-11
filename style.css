@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;500;600;700&family=Rubik:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter:wght@400;500;600;700&family=Rubik:wght@700&display=swap");
 
 *,
 *:before,
@@ -14,85 +14,80 @@ picture {
   max-width: 100%;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-body{
-    color: white;
-    height: 100vh;
+body {
+  color: white;
+  height: 100vh;
 }
 
-.head{
-    display: flex;
-    background-color:#1F4482;
-    justify-content: space-evenly;
-    padding: 100px 0;
-    font-family: 'Inter', sans-serif;
+.head {
+  display: flex;
+  background-color: #1f4482;
+  justify-content: space-evenly;
+  padding: 100px 0;
+  font-family: "Inter", sans-serif;
 }
 
-.content{
-    
+h1 {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 40px;
 }
 
-h1{
-    font-family: 'Rubik', sans-serif;
-    margin-bottom: 40px;
-}
-
-span{
-    color: #E9EE00;
+span {
+  color: #e9ee00;
 }
 
 #sub {
-    font-family: 'DM Sans', sans-serif;
-    margin-bottom: 100px;
+  font-family: "DM Sans", sans-serif;
+  margin-bottom: 100px;
 }
 
-
-input{
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    color: #888888;
-    padding: 15px 35px 15px 25px;
-    border-radius: 8px;
-    border-style: none;
+input {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #888888;
+  padding: 15px 35px 15px 25px;
+  border-radius: 8px;
+  border-style: none;
 }
 
-button{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    background: #282828;
-    color: white;
-    padding: 13px 25px;
-    border-radius: 8px;
-    border-style: none;
-    cursor: pointer;
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  background: #282828;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 8px;
+  border-style: none;
+  cursor: pointer;
 }
 
-#feat{
-    margin : 10px 0px 0px 20px;
-    font-size: 13px;
+#feat {
+  margin: 10px 0px 0px 20px;
+  font-size: 13px;
 }
 
-img{
-    box-shadow: 1px 1px 40px 20px rgba(255, 255, 255, 1);
+img {
+  box-shadow: 1px 1px 40px 20px rgba(255, 255, 255, 1);
 }
 
-.footer{
-    background: #282828;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Inter', sans-serif;
-    padding: 40px;
+.footer {
+  background: #282828;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  padding: 40px;
 }
 
-.footer li{
-    margin-bottom:10px ;
+.footer li {
+  margin-bottom: 10px;
 }
 
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
